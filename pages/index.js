@@ -43,14 +43,12 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to Coders blog</h1>
 
-        <p className={styles.description}>A blog for coders by coders</p>
+        <p className={styles.description}>A blog for coders by the coders</p>
 
-        <div className="blogs">
-          <div className="blogItem">
-            <h1>How to learn javascript in 2022</h1>
-            <p>
-              Javascript is the language is designed to run logic on the web
-            </p>
+        <div className={styles.home_content}>
+          <div className={styles.home_item}>
+            <h3>How to learn javascript in 2022</h3>
+            <p>Javascript is the language designed to run logic on the web</p>
           </div>
         </div>
       </main>

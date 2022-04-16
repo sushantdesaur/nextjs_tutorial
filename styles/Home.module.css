@@ -8,7 +8,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center flex-start;
   align-items: center;
 }
 
@@ -126,4 +126,9 @@
   margin: 20px;
   list-style: none;
   font-weight: bold;
+}
+
+.home_item h3{
+  display: flex;
+  justify-content: center;
 }
