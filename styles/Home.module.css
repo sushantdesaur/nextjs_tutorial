@@ -114,3 +114,16 @@
     flex-direction: column;
   }
 }
+
+.main_nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}           
+
+.main_nav ul li {
+  padding: 10px;
+  margin: 20px;
+  list-style: none;
+  font-weight: bold;
+}
