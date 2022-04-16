@@ -6,4 +6,4 @@ const animals = () => {
   )
 }
 
-export default animals
+export default animals;
