@@ -1,9 +1,10 @@
-import React from 'react'
+import { useRouter } from 'next/router'
 
-const blog = () => {
-  return (
-    <div>blog</div>
-  )
+const Blog = () => {
+    const router = useRouter();
+    return (
+        <div>blog</div>
+     )
 }
 
-export default blog
+export default Blog
