@@ -11,45 +11,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header>
+        <nav className={styles.main_nav}>
+          <ul>
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </header>
+
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to{" "}
-          <a href="https://nextjs.org">Next.js! mastery</a>
-        </h1>
+        <h1 className={styles.title}>Welcome to Coders blog</h1>
 
-        <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <p className={styles.description}>A blog for coders by coders</p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
+        <div className="blogs">
+          <div className="blogItem">
+            <h1>How to learn javascript in 2022</h1>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Javascript is the language is designed to run logic on the web
             </p>
-          </a>
+          </div>
         </div>
       </main>
 
