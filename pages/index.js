@@ -41,7 +41,7 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Coders blog</h1>
+        <h1 className={styles.title}>Welcome to Coders Blog</h1>
 
         <p className={styles.description}>A blog for coders by the coders</p>
 
