@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-
-import Link from "next/link";
+import MainNav from '../components/nav/MainNav.js'
+import React from "react";
 
 export default function Home() {
   return (
@@ -14,30 +14,7 @@ export default function Home() {
       </Head>
 
       <header>
-        <nav className={styles.main_nav}>
-          <ul>
-            <Link href="/">
-              <a>
-                <li>Home</li>
-              </a>
-            </Link>
-            <Link href="/blog">
-              <a>
-                <li>Blog</li>
-              </a>
-            </Link>
-            <Link href="/about">
-              <a>
-                <li>About</li>
-              </a>
-            </Link>
-            <Link href="/contact">
-              <a>
-                <li>Contact</li>
-              </a>
-            </Link>
-          </ul>
-        </nav>
+        <MainNav/>
       </header>
 
       <main className={styles.main}>
@@ -65,6 +42,8 @@ export default function Home() {
           </span>
         </a>
       </footer>
+
+      <script>var Alert = ReactBootstrap.Alert;</script>
     </div>
   );
 }
